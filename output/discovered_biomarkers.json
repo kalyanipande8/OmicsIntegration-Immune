@@ -1,0 +1,227 @@
+{
+  "biomarkers": [
+    {
+      "feature": "GENE_IFNG",
+      "modality": "scrna",
+      "spearman_r": 0.3315672400007275,
+      "p_value": 1.4031333083184017e-18,
+      "q_value": 1.2628199774865614e-16,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "GC_density_LN",
+      "modality": "spatial",
+      "spearman_r": 0.29345556809033646,
+      "p_value": 1.0290194411319887e-14,
+      "q_value": 4.630587485093949e-13,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "pct_plasmablast",
+      "modality": "flow",
+      "spearman_r": 0.27991428140229,
+      "p_value": 1.7942477307469165e-13,
+      "q_value": 5.38274319224075e-12,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "pct_Tfh_circulating",
+      "modality": "flow",
+      "spearman_r": 0.275077462942973,
+      "p_value": 4.799080464551214e-13,
+      "q_value": 1.0797931045240232e-11,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "vaccine_specific_clonotype_freq",
+      "modality": "tcr_bcr",
+      "spearman_r": 0.2722576403195417,
+      "p_value": 8.44076059468619e-13,
+      "q_value": 1.519336907043514e-11,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "GENE_TBX21",
+      "modality": "scrna",
+      "spearman_r": 0.24632124228079963,
+      "p_value": 1.1238799602417687e-10,
+      "q_value": 1.6009613271023873e-09,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "somatic_hypermutation_rate",
+      "modality": "tcr_bcr",
+      "spearman_r": 0.2457455042021684,
+      "p_value": 1.2451921433018568e-10,
+      "q_value": 1.6009613271023873e-09,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "GENE_CXCR5",
+      "modality": "scrna",
+      "spearman_r": 0.2097021415294305,
+      "p_value": 4.588107802777575e-08,
+      "q_value": 5.161621278124772e-07,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "pct_ICOS_Tfh",
+      "modality": "flow",
+      "spearman_r": 0.20598130132487097,
+      "p_value": 7.986801859675146e-08,
+      "q_value": 7.986801859675146e-07,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "Tfh_GC_colocalization",
+      "modality": "spatial",
+      "spearman_r": 0.20012175098149704,
+      "p_value": 1.8729258706405485e-07,
+      "q_value": 1.6856332835764937e-06,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "pct_switched_memory_B",
+      "modality": "flow",
+      "spearman_r": 0.19574695750349383,
+      "p_value": 3.481562957009312e-07,
+      "q_value": 2.8485515102803465e-06,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "GENE_BCL6",
+      "modality": "scrna",
+      "spearman_r": 0.1915325785223599,
+      "p_value": 6.243873364393632e-07,
+      "q_value": 4.682905023295224e-06,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "germinal_center_count",
+      "modality": "spatial",
+      "spearman_r": 0.18756740747117784,
+      "p_value": 1.069194027708454e-06,
+      "q_value": 7.402112499520066e-06,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "BCR_clonality",
+      "modality": "tcr_bcr",
+      "spearman_r": 0.17492630367599576,
+      "p_value": 5.511394557575037e-06,
+      "q_value": 3.543039358441096e-05,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "class_switch_fraction_IgG",
+      "modality": "tcr_bcr",
+      "spearman_r": 0.15996508782972577,
+      "p_value": 3.3201230826845996e-05,
+      "q_value": 0.00019920738496107598,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "stromal_FDC_density",
+      "modality": "spatial",
+      "spearman_r": 0.12682504375394751,
+      "p_value": 0.001028737709110849,
+      "q_value": 0.0057866496137485264,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "pct_activated_CD38_HLADR_CD8",
+      "modality": "flow",
+      "spearman_r": 0.12531880151436695,
+      "p_value": 0.0011817457098593994,
+      "q_value": 0.006256300816902703,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "BCR_Vgene_skew",
+      "modality": "tcr_bcr",
+      "spearman_r": 0.12059107360679423,
+      "p_value": 0.0018086483479583958,
+      "q_value": 0.009043241739791978,
+      "significant": true,
+      "in_ground_truth": false
+    },
+    {
+      "feature": "GENE_CD38",
+      "modality": "scrna",
+      "spearman_r": 0.10671398858864709,
+      "p_value": 0.005802398011426552,
+      "q_value": 0.027392562855491652,
+      "significant": true,
+      "in_ground_truth": false
+    },
+    {
+      "feature": "GENE_MKI67",
+      "modality": "scrna",
+      "spearman_r": 0.10611015857776963,
+      "p_value": 0.006087236190109257,
+      "q_value": 0.027392562855491652,
+      "significant": true,
+      "in_ground_truth": true
+    },
+    {
+      "feature": "GENE_STAT1",
+      "modality": "scrna",
+      "spearman_r": 0.10434765281288737,
+      "p_value": 0.006991895738655093,
+      "q_value": 0.029965267451378973,
+      "significant": true,
+      "in_ground_truth": false
+    }
+  ],
+  "validation": {
+    "n_candidate_features": 90,
+    "n_significant_discovered": 21,
+    "n_ground_truth": 18,
+    "true_positives": [
+      "BCR_clonality",
+      "GC_density_LN",
+      "GENE_BCL6",
+      "GENE_CXCR5",
+      "GENE_IFNG",
+      "GENE_MKI67",
+      "GENE_TBX21",
+      "Tfh_GC_colocalization",
+      "class_switch_fraction_IgG",
+      "germinal_center_count",
+      "pct_ICOS_Tfh",
+      "pct_Tfh_circulating",
+      "pct_activated_CD38_HLADR_CD8",
+      "pct_plasmablast",
+      "pct_switched_memory_B",
+      "somatic_hypermutation_rate",
+      "stromal_FDC_density",
+      "vaccine_specific_clonotype_freq"
+    ],
+    "false_positives": [
+      "BCR_Vgene_skew",
+      "GENE_CD38",
+      "GENE_STAT1"
+    ],
+    "false_negatives": [],
+    "precision": 0.8571,
+    "recall": 1.0,
+    "f1": 0.9231
+  }
+}

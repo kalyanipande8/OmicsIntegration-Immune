@@ -1,0 +1,20 @@
+{
+  "GENE_IFNG": 1.4,
+  "GENE_TBX21": 1.1,
+  "GENE_CXCR5": 0.9,
+  "GENE_BCL6": 0.8,
+  "GENE_MKI67": 0.7,
+  "GC_density_LN": 1.3,
+  "Tfh_GC_colocalization": 1.2,
+  "germinal_center_count": 1.0,
+  "stromal_FDC_density": 0.6,
+  "pct_Tfh_circulating": 1.3,
+  "pct_plasmablast": 1.5,
+  "pct_activated_CD38_HLADR_CD8": 0.9,
+  "pct_ICOS_Tfh": 1.0,
+  "pct_switched_memory_B": 0.8,
+  "vaccine_specific_clonotype_freq": 1.6,
+  "BCR_clonality": 1.0,
+  "somatic_hypermutation_rate": 0.9,
+  "class_switch_fraction_IgG": 0.7
+}
